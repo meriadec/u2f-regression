@@ -1,6 +1,8 @@
 {
   "scripts": {
-    "start": "parcel --https index.html"
+    "start": "parcel --https index.html",
+    "build": "parcel build index.html",
+    "publish": "bash publish.sh"
   },
   "dependencies": {
     "@ledgerhq/hw-transport-u2f": "^4.39.0",
