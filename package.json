@@ -1,0 +1,13 @@
+{
+  "scripts": {
+    "start": "parcel --https index.html"
+  },
+  "dependencies": {
+    "@ledgerhq/hw-transport-u2f": "^4.39.0",
+    "babel-polyfill": "^6.26.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0"
+  },
+  "private": true
+}
