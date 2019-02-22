@@ -5,6 +5,7 @@ set -e
 rm -rf dist
 yarn build
 cd dist
+sed -i 's/src="\//src=".\//g' index.html
 git init
 git checkout --orphan gh-pages
 git add .
